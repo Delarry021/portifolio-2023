@@ -7,7 +7,7 @@ import SocialMedia from "../midia-social/social-media";
 export default function Homepage(){
     return (
         <section data-aos="fade-up" id='homepage' className='flex sm:flex-col py-32 mt-48 sm:mt-0 mb-96 justify-between items-center'>
-        <div className="flex items-start sm:items-center sm:text-center justify-center text-left z-10 flex-col gap-16 sm:gap-24 w-1/2 sm:w-fit">
+        <div className="flex items-start sm:items-center sm:text-center justify-center text-left z-10 flex-col gap-16 sm:gap-24 sm:px-12 w-1/2 sm:w-fit">
           <Image
         className={`
             rounded-full
