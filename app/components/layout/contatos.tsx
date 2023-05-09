@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import BotaoOne from "../buttons/button-one";
+import BotaoTwo from "../buttons/button-two";
 
 export default function Contatos(){
     return(
