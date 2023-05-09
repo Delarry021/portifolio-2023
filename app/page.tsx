@@ -22,7 +22,7 @@ export default function Index() {
 
 
   return (
-    <main className={`flex flex-col justify-center ${inter.className}`}>
+    <main className={`flex px-16 flex-col justify-center ${inter.className}`}>
       <Header/>
       <Homepage/>
       <Projetos/>
