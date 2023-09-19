@@ -17,10 +17,7 @@ export default function Talents(params) {
     >
       <h1>Talentos</h1>
       <p className="text-zinc-600">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-        quisquam eligendi odit? A, magnam quos amet blanditiis optio beatae
-        reprehenderit perferendis libero earum laudantium inventore tenetur, eum
-        sequi. Eveniet, nobis.
+        Aqui estão algumas linguagens e programas que tenho experiência de uso, na qual faço a maioria dos meus projetos utilizando, pelo menos, um deles.
       </p>
       <ul className="border border-solid border-zinc-300 p-16 flex justify-center items-center gap-16">
         <TalentsCards icone={AiFillHtml5} texto="HTML5"/>
