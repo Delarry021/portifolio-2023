@@ -1,0 +1,53 @@
+import Typewriter from "typewriter-effect";
+import { BsDribbble, BsGithub, BsLinkedin } from "react-icons/bs";
+import Avatar from "../Avatar";
+import LinksAlt from "../LinksAlt";
+
+export default function Homepage(params) {
+  return (
+    <main
+      className="py-64 justify-center items-center flex gap-32"
+      id="homepage"
+    >
+      <div className="text-left flex flex-col gap-12" id="conteudo">
+        <h1>Vamos trabalhar juntos</h1>
+        <p className="text-zinc-500">
+          Opa! Prazer, Sou o
+          <div className="text-royalblue-700 relative -top-[24px] left-[136px]">
+            <Typewriter
+              options={{
+                strings: ["Guilherme", "Delarry"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+          Tenho 20 anos e tô mandando bala na graduação de Ciências da
+          Computação na UERJ 👨🏻‍💻. Amo tecnologia e sempre busco aprender mais
+          sobre programação. Vou aproveitar tudo que a faculdade tem pra me
+          oferecer e estou muito animado pra me envolver em projetos incriveis.
+        </p>
+        <div className="flex gap-8" id="social_media">
+          <LinksAlt
+            link="https://github.com/Delarry021"
+            icone={BsGithub}
+            texto="Github"
+          />
+          <LinksAlt
+            link="https://www.linkedin.com/in/guilherme-delarry-510699245/"
+            icone={BsLinkedin}
+            texto="Linkedin"
+          />
+          <LinksAlt
+            link="https://dribbble.com/Delarry"
+            icone={BsDribbble}
+            texto="Dribbble"
+          />
+        </div>
+      </div>
+      <div id="avatar">
+        <Avatar tamanho={400} />
+      </div>
+    </main>
+  );
+}
