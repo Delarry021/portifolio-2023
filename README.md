@@ -1,1 +1,0 @@
- Página de portfólio pessoal criada com Next.js e Tailwind CSS. Nela, é possível ter uma visão geral das minhas habilidades e experiências, bem como conferir alguns dos projetos mais recentes em que trabalhei. 
