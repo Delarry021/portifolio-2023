@@ -10,7 +10,7 @@ export default function Projects() {
       id="projects"
     >
       <h1 className="self-center">Meus Projetos</h1>
-      <div className="border border-solid border-zinc-200 p-32 flex justify-center">
+      <div className="flex-wrap border border-solid border-zinc-200 p-32 gap-16 flex justify-center">
         <div>
           <Card
             imagem={Crud}

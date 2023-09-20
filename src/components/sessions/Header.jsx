@@ -12,16 +12,12 @@ export default function Header() {
     fixed w-full
     ">
       <Logo/>
-      <ul className="flex gap-8">
+      <ul className="xl:hidden flex gap-8">
         <Links link="#homepage" texto="Homepage"/>
         <Links link="#projects" texto="Projetos" />
         <Links link="#talentos" texto="Talentos"/>
         <Links link="#contact" texto="Contact"></Links>
-        <li>
-          <button>
-            <BsFillMoonFill />
-          </button>
-        </li>
+
       </ul>
     </header>
   );

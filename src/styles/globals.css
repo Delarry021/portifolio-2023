@@ -9,11 +9,11 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 8px;
+   list-style-type: none;
 }
 
-body {
+p,li {
   font-size: 1.6rem;
-  list-style-type: none;
 }
 
 #logo {
@@ -44,4 +44,14 @@ i {
 
 #app {
   min-height: 100vh;
+}
+
+@media (max-width:1279px) {
+
+  h1 {
+    font-size: 4.4rem;
+  }
+  p,li {
+    font-size: 1.2rem;
+  }
 }
