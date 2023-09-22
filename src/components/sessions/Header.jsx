@@ -12,7 +12,7 @@ export default function Header() {
     fixed w-full
     ">
       <Logo/>
-      <ul className="xl:hidden flex gap-8">
+      <ul className="md:hidden flex gap-8">
         <Links link="#homepage" texto="Homepage"/>
         <Links link="#projects" texto="Projetos" />
         <Links link="#talentos" texto="Talentos"/>

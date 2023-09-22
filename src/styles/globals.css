@@ -12,7 +12,7 @@ html {
    list-style-type: none;
 }
 
-p,li {
+p,button,span,li {
   font-size: 1.6rem;
 }
 
@@ -20,6 +20,10 @@ p,li {
   font-size: 2.4rem;
   font-weight: 600;
   letter-spacing: 150%;
+}
+
+#logo > span {
+  font-size: 2.4rem
 }
 
 h1 {
@@ -46,12 +50,12 @@ i {
   min-height: 100vh;
 }
 
-@media (max-width:1279px) {
+@media (max-width:767px) {
 
   h1 {
     font-size: 4.4rem;
   }
-  p,li {
+  span,button,p,li {
     font-size: 1.2rem;
   }
 }

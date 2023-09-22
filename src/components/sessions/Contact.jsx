@@ -9,8 +9,8 @@ export default function Contact(params) {
       className="py-64 mb-96 text-center place-items-center flex justify-center flex-col gap-16"
       id="contact"
     >
-      <h1>Me fale sobre nosso próximo projeto</h1>
-      <Image className="xl:hidden -translate-y-20 translate-x-60" src={Linhas} />
+      <h1 className="md:w-[400px]">Me fale sobre nosso próximo projeto</h1>
+      <Image className="md:hidden -translate-y-20 translate-x-60" src={Linhas} />
       <Botao icone={<AiFillMail />} texto="Entre em contato"/>
     </section>
   );

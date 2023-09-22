@@ -6,14 +6,14 @@ import LinksAlt from "../LinksAlt";
 export default function Homepage(params) {
   return (
     <main
-      className="py-64 justify-center items-center flex gap-32"
+      className="px-24 md:px-0 py-64 justify-between items-center flex gap-32"
       id="homepage"
     >
-      <div className="xl:text-center xl:items-center text-left flex flex-col gap-12" id="conteudo">
+      <div className="md:text-center md:items-center text-left flex flex-col gap-12" id="conteudo">
         <h1>Vamos trabalhar juntos<span className="text-royalblue-700">.</span></h1>
         <p className="text-zinc-500">
           Opa! Prazer, Sou o
-          <span className="text-royalblue-700 relative -top-[24px] xl:left-[84px] xl:-top-[18px] left-[136px]">
+          <span className="text-royalblue-700 relative -top-[24px] md:left-[84px] md:-top-[18px] left-[136px]">
             <Typewriter
               options={{
                 strings: ["Guilherme", "Delarry"],
@@ -45,7 +45,7 @@ export default function Homepage(params) {
           />
         </div>
       </div>
-      <div className="xl:hidden" id="avatar">
+      <div className="md:hidden" id="avatar">
         <Avatar tamanho={400} />
       </div>
     </main>

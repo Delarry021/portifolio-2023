@@ -19,7 +19,7 @@ export default function Talents(params) {
       <p className="text-zinc-600">
         Aqui estão algumas linguagens e programas que tenho experiência de uso, na qual faço a maioria dos meus projetos utilizando, pelo menos, um deles.
       </p>
-      <ul className="xl:w-[400px] flex-wrap border border-solid border-zinc-300 p-16 flex justify-center items-center gap-16">
+      <ul className="md:w-[400px] flex-wrap border border-solid border-zinc-300 p-16 flex justify-center items-center gap-16">
         <TalentsCards icone={AiFillHtml5} texto="HTML5"/>
         <TalentsCards icone={IoLogoCss3} texto="CSS3"/>
         <TalentsCards icone={BiLogoJavascript} texto="Javascript" />
