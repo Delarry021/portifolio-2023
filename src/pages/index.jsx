@@ -13,12 +13,14 @@ export default function Home() {
   return (
     <div className="min-w-fit bg-zinc-100 text-zinc-950" id="app">
       <Header />
-      <Homepage />
-      <Projects />
-      <Talents />
-      <Contact />
+      <div className='max-w-[1110px] m-auto'>
+        <Homepage />
+        <Projects />
+        <Talents />
+        <Contact />
+      </div>
       <Footer />
-      <Upper/>
+      <Upper />
     </div>
   );
 }
