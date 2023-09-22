@@ -12,6 +12,10 @@ html {
    list-style-type: none;
 }
 
+body {
+   overflow-y: hidden;
+}
+
 p,button,span,li {
   font-size: 1.6rem;
 }
